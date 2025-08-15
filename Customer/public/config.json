@@ -1,0 +1,178 @@
+{
+  "restaurant": {
+    "name": "Paucek and Lage Restaurant",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Main Street, City, State 12345",
+    "primaryColor": "#222222",
+    "secondaryColor": "#FF8000",
+    "description": "Experience the finest dining at Paucek and Lage Restaurant with our carefully crafted menu",
+    "hours": "Mon-Sun: 11:00 AM - 10:00 PM",
+    "email": "info@restaurant.com"
+  },
+  "menuCategories": [
+    {
+      "name": "Main Course",
+      "items": [
+        {
+          "id": "MC001",
+          "name": "Cheeseburger",
+          "price": 34,
+          "description": "Delicious cheeseburger",
+          "category": "Main Course",
+          "dietary": [
+            "vegetarian"
+          ],
+          "popular": true
+        },
+        {
+          "id": "MC002",
+          "name": "Cheese sandwich",
+          "price": 22,
+          "description": "Delicious cheese sandwich",
+          "category": "Main Course",
+          "dietary": [
+            "vegetarian"
+          ],
+          "popular": false
+        },
+        {
+          "id": "MC003",
+          "name": "Chicken burgers",
+          "price": 23,
+          "description": "Delicious chicken burgers",
+          "category": "Main Course",
+          "dietary": [],
+          "popular": true
+        },
+        {
+          "id": "MC004",
+          "name": "Spicy chicken",
+          "price": 33,
+          "description": "Delicious spicy chicken",
+          "category": "Main Course",
+          "dietary": [
+            "spicy"
+          ],
+          "popular": true
+        },
+        {
+          "id": "MC005",
+          "name": "Hot dog",
+          "price": 24,
+          "description": "Delicious hot dog",
+          "category": "Main Course",
+          "dietary": [
+            "spicy"
+          ],
+          "popular": false
+        }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "items": [
+        {
+          "id": "AP001",
+          "name": "Fruit Salad",
+          "price": 13,
+          "description": "Delicious fruit salad",
+          "category": "Appetizers",
+          "dietary": [
+            "vegetarian"
+          ],
+          "popular": false
+        },
+        {
+          "id": "AP002",
+          "name": "Cocktails",
+          "price": 12,
+          "description": "Delicious cocktails",
+          "category": "Appetizers",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "AP003",
+          "name": "Nuggets",
+          "price": 14,
+          "description": "Delicious nuggets",
+          "category": "Appetizers",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "AP004",
+          "name": "Sandwich",
+          "price": 13,
+          "description": "Delicious sandwich",
+          "category": "Appetizers",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "AP005",
+          "name": "French Fries",
+          "price": 15,
+          "description": "Delicious french fries",
+          "category": "Appetizers",
+          "dietary": [],
+          "popular": false
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "id": "BV001",
+          "name": "Milk Shake",
+          "price": 3,
+          "description": "Delicious milk shake",
+          "category": "Beverages",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "BV002",
+          "name": "Iced Tea",
+          "price": 2,
+          "description": "Delicious iced tea",
+          "category": "Beverages",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "BV003",
+          "name": "Orange Juice",
+          "price": 4,
+          "description": "Delicious orange juice",
+          "category": "Beverages",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "BV004",
+          "name": "Lemon Tea",
+          "price": 3,
+          "description": "Delicious lemon tea",
+          "category": "Beverages",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "BV005",
+          "name": "Coffee",
+          "price": 5,
+          "description": "Delicious coffee",
+          "category": "Beverages",
+          "dietary": [],
+          "popular": false
+        }
+      ]
+    }
+  ],
+  "taxRate": 0.08,
+  "currency": "USD",
+  "estimatedTimePerItem": 10,
+  "minimumOrderTime": 20
+}
